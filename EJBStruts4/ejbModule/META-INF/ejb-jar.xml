@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejb-jar id="ejb-jar_ID" version="2.1" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/ejb-jar_2_1.xsd">
+	<display-name>EJBStruts4</display-name>
+	<enterprise-beans>
+	<session>
+			<ejb-name>UserSv</ejb-name>
+			<home>by.epamlab.ejbs.UserSvHome</home>
+			<remote>by.epamlab.ejbs.UserSvRemote</remote>
+			<ejb-class>by.epamlab.ejbs.UserSvBean</ejb-class>
+			<session-type>Stateless</session-type>
+			<transaction-type>Bean</transaction-type>
+		</session>
+		<session>
+			<ejb-name>ReservationSv</ejb-name>
+			<home>by.epamlab.ejbs.ReservationSvHome</home>
+			<remote>by.epamlab.ejbs.ReservationSvRemote</remote>
+			<ejb-class>by.epamlab.ejbs.ReservationSvBean</ejb-class>
+			<session-type>Stateless</session-type>
+			<transaction-type>Bean</transaction-type>
+		</session>
+		<session>
+			<ejb-name>ReservationCompSv</ejb-name>
+			<home>by.epamlab.ejbs.ReservationCompSvHome</home>
+			<remote>by.epamlab.ejbs.ReservationCompSv</remote>
+			<ejb-class>by.epamlab.ejbs.ReservationCompSvBean</ejb-class>
+			<session-type>Stateless</session-type>
+			<transaction-type>Bean</transaction-type>
+		</session>
+		<session>
+			<ejb-name>CustomerSv</ejb-name>
+			<home>by.epamlab.ejbs.CustomerSvHome</home>
+			<remote>by.epamlab.ejbs.CustomerSv</remote>
+			<ejb-class>by.epamlab.ejbs.CustomerSvBean</ejb-class>
+			<session-type>Stateless</session-type>
+			<transaction-type>Bean</transaction-type>
+		</session>
+		<session>
+			<ejb-name>FareFamilySv</ejb-name>
+			<home>by.epamlab.ejbs.FareFamilySvHome</home>
+			<remote>by.epamlab.ejbs.FareFamilySv</remote>
+			<ejb-class>by.epamlab.ejbs.FareFamilySvBean</ejb-class>
+			<session-type>Stateless</session-type>
+			<transaction-type>Bean</transaction-type>
+		</session>
+	</enterprise-beans>	
+	<ejb-client-jar>EJBStruts4Client.jar</ejb-client-jar>
+</ejb-jar>

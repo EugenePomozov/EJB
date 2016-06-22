@@ -1,0 +1,23 @@
+package by.epamlab.beans.reservations;
+
+import java.io.Serializable;
+
+public class AncillaryAirComponent implements Serializable {
+	private static final long serialVersionUID = 1L;
+	private String ancillaryAirComponentCode;
+
+	public AncillaryAirComponent() {
+	}
+
+	public AncillaryAirComponent(String ancillaryAirComponentCode) {
+		this.ancillaryAirComponentCode = ancillaryAirComponentCode;
+	}
+
+	public String getAncillaryAirComponent() {
+		return ancillaryAirComponentCode;
+	}
+
+	public void setAncillaryAirComponent(String ancillaryAirComponentCode) {
+		this.ancillaryAirComponentCode = ancillaryAirComponentCode;
+	}
+}
