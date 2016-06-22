@@ -1,0 +1,19 @@
+.header-link {
+	color: #A7A6AA;
+}
+.header-link:hover {
+    color: #FFFFFF;
+}
+a.logout {
+    margin-left: 20px;
+	text-decoration: none;
+}
+.menu {
+	background-color: rgba(187, 51, 51, 0.85) !important;
+}
+a.menu:hover {
+	background-color: rgba(222, 17, 17, 0.85) !important;
+}
+.user {
+	font-weight: bold;
+}

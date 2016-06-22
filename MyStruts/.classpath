@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk 1.6">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v5.5">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/JavaDeveloper2015/books/STRUTS/openlogic-struts-1.3.10-all-bin-1/struts-1.3.10/lib/antlr-2.7.2.jar"/>
+	<classpathentry kind="lib" path="D:/JavaDeveloper2015/books/STRUTS/openlogic-struts-1.3.10-all-bin-1/struts-1.3.10/lib/bsf-2.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/JavaDeveloper2015/books/STRUTS/openlogic-struts-1.3.10-all-bin-1/struts-1.3.10/lib/commons-beanutils-1.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/JavaDeveloper2015/books/STRUTS/openlogic-struts-1.3.10-all-bin-1/struts-1.3.10/lib/commons-chain-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/JavaDeveloper2015/books/STRUTS/openlogic-struts-1.3.10-all-bin-1/struts-1.3.10/lib/commons-digester-1.8.jar"/>
+	<classpathentry kind="lib" path="D:/JavaDeveloper2015/books/STRUTS/openlogic-struts-1.3.10-all-bin-1/struts-1.3.10/lib/commons-fileupload-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/JavaDeveloper2015/books/STRUTS/openlogic-struts-1.3.10-all-bin-1/struts-1.3.10/lib/commons-io-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/JavaDeveloper2015/books/STRUTS/openlogic-struts-1.3.10-all-bin-1/struts-1.3.10/lib/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/JavaDeveloper2015/books/STRUTS/openlogic-struts-1.3.10-all-bin-1/struts-1.3.10/lib/commons-validator-1.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/JavaDeveloper2015/books/STRUTS/openlogic-struts-1.3.10-all-bin-1/struts-1.3.10/lib/jstl-1.0.2.jar"/>
+	<classpathentry kind="lib" path="D:/JavaDeveloper2015/books/STRUTS/openlogic-struts-1.3.10-all-bin-1/struts-1.3.10/lib/oro-2.0.8.jar"/>
+	<classpathentry kind="lib" path="D:/JavaDeveloper2015/books/STRUTS/openlogic-struts-1.3.10-all-bin-1/struts-1.3.10/lib/standard-1.0.6.jar"/>
+	<classpathentry kind="lib" path="D:/JavaDeveloper2015/books/STRUTS/openlogic-struts-1.3.10-all-bin-1/struts-1.3.10/lib/struts-core-1.3.10.jar"/>
+	<classpathentry kind="lib" path="D:/JavaDeveloper2015/books/STRUTS/openlogic-struts-1.3.10-all-bin-1/struts-1.3.10/lib/struts-el-1.3.10.jar"/>
+	<classpathentry kind="lib" path="D:/JavaDeveloper2015/books/STRUTS/openlogic-struts-1.3.10-all-bin-1/struts-1.3.10/lib/struts-extras-1.3.10.jar"/>
+	<classpathentry kind="lib" path="D:/JavaDeveloper2015/books/STRUTS/openlogic-struts-1.3.10-all-bin-1/struts-1.3.10/lib/struts-faces-1.3.10.jar"/>
+	<classpathentry kind="lib" path="D:/JavaDeveloper2015/books/STRUTS/openlogic-struts-1.3.10-all-bin-1/struts-1.3.10/lib/struts-mailreader-dao-1.3.10.jar"/>
+	<classpathentry kind="lib" path="D:/JavaDeveloper2015/books/STRUTS/openlogic-struts-1.3.10-all-bin-1/struts-1.3.10/lib/struts-scripting-1.3.10.jar"/>
+	<classpathentry kind="lib" path="D:/JavaDeveloper2015/books/STRUTS/openlogic-struts-1.3.10-all-bin-1/struts-1.3.10/lib/struts-taglib-1.3.10.jar"/>
+	<classpathentry kind="lib" path="D:/JavaDeveloper2015/books/STRUTS/openlogic-struts-1.3.10-all-bin-1/struts-1.3.10/lib/struts-tiles-1.3.10.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jstl.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/standard.jar"/>
+	<classpathentry kind="con" path="org.jboss.ide.eclipse.as.classpath.core.j2ee-1.4"/>
+	<classpathentry kind="lib" path="C:/Users/Eugene/Desktop/EJBStruts4.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
