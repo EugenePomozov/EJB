@@ -14,7 +14,7 @@ import javax.sql.DataSource;
 
 //import by.epamlab.ConnectionHome;
 //import by.epamlab.ConnectionRemote;
-import by.epamlab.db.AbstractBaseDB;
+//import by.epamlab.db.AbstractBaseDB;
 
 public class UserSvBean implements SessionBean {
 //	public class UserBean extends AbstractBaseDB implements SessionBean {
@@ -22,7 +22,7 @@ public class UserSvBean implements SessionBean {
 	private static final long serialVersionUID = 1L;
 	
 	public String getReservation(String userName, String password){
-		/* final  String TABLE_USER = "users";
+		 final  String TABLE_USER = "users";
 		 final  String COLOMN_LOGIN = "userName";
 		 final  String COLOMN_PASSWORD = "password";
 		 final  String COLOMN_FILE = "dataFile";
@@ -30,20 +30,20 @@ public class UserSvBean implements SessionBean {
 		final  String SELECT_LOGIN = "SELECT " + COLOMN_PASSWORD + ", " + COLOMN_FILE + " FROM " + TABLE_USER
 				+ " WHERE " + COLOMN_LOGIN + " = ?";
 		String reservation = "";
-		//DataSource ds = null;
+		DataSource ds = null;
 		Connection con = null;
 		PreparedStatement pr = null;
 		ResultSet rs = null;
 		InitialContext ic;
 		try {
 			ic = new InitialContext();
-			Object ref =  ic.lookup("ConnectionBean");
+			/*Object ref =  ic.lookup("ConnectionBean");
 			ConnectionHome home = (ConnectionHome) PortableRemoteObject.narrow(ref,
-					ConnectionHome.class);
-			ConnectionRemote bean = (ConnectionRemote) home.create();
-			//ds = (DataSource) ic.lookup("java:/SqlDS");
-			//con = ds.getConnection();
-			con = bean.getConnection();
+					ConnectionHome.class);*/
+			//ConnectionRemote bean = (ConnectionRemote) home.create();
+			ds = (DataSource) ic.lookup("java:/SqlDS");
+			con = ds.getConnection();
+			//con = bean.getConnection();
 			System.out.println(con);
 			pr = con.prepareStatement(SELECT_LOGIN);
 			pr.setString(1, userName);
@@ -85,7 +85,7 @@ public class UserSvBean implements SessionBean {
 			}
 		}
 		return reservation;
-	}*/
+	}/*
 		
 		if(userName.equals("user") &&password.equals("user")){
 			return "0004257753";
@@ -93,8 +93,8 @@ public class UserSvBean implements SessionBean {
 		if(userName.equals("admin") &&password.equals("admin")){
 			return "0004257753";
 		}
-		return "";
-	}
+		return "";*/
+	//}
 	public UserSvBean() {
 		// TODO Auto-generated constructor stub
 	}
