@@ -19,8 +19,8 @@ public class ReservationImplXml implements IReservationDAO {
 		XMLReader reader = XMLReaderFactory.createXMLReader();		
 			Handler dataHandler = new Handler();
 		reader.setContentHandler(dataHandler);
-		//reader.parse(this.getClass().getClassLoader().getResource("").getPath()+fileName+".xml");	
-		reader.parse("C://files/"+fileName+".xml");	
+		reader.parse(this.getClass().getClassLoader().getResource("").getPath()+fileName+".xml");	
+		//reader.parse("C://files/"+fileName+".xml");	
 		return dataHandler.getReservation();
 	}
 
